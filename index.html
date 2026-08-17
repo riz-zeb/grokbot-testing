@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Snake</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f141c'/%3E%3Crect x='5' y='13' width='7' height='7' rx='2' fill='%231c7f5e'/%3E%3Crect x='13' y='13' width='7' height='7' rx='2' fill='%2335e6a4'/%3E%3Ccircle cx='24' cy='16' r='3.5' fill='%23ff9d5c'/%3E%3C/svg%3E" />
 <style>
   :root {
     --bg: #080b10;
@@ -258,8 +259,8 @@
   var ROWS = 22;
   var CELL_COUNT = COLS * ROWS;
   var START_LENGTH = 4;
-  var TICK_START = 135;   // ms per step at score 0
-  var TICK_MIN = 66;
+  var TICK_START = 150;   // ms per step at score 0
+  var TICK_MIN = 70;
   var TICK_STEP = 4;      // ms shaved off per food eaten
   var POINTS_PER_FOOD = 10;
   var STORAGE_KEY = "snake.highScore";
